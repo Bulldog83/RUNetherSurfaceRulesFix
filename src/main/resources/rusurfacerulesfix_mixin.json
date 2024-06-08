@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "ru.bulldog.rusurfacerulesfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"AddSurfaceRuleUtilMixin",
+	"SurfaceRuleUtilInvoker"
+  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}
