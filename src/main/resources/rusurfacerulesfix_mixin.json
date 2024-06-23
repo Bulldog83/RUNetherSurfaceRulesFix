@@ -1,10 +1,11 @@
 {
   "required": true,
-  "package": "ru.bulldog.rusurfacerulesfix.mixin",
+  "package": "ru.bulldog.smaragdor.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
 	"AddSurfaceRuleUtilMixin",
-	"SurfaceRuleUtilInvoker"
+	"SurfaceRuleUtilInvoker",
+    "AE2CrashFixMixin"
   ],
   "injectors": {
 	"defaultRequire": 1
